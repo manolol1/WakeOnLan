@@ -1,7 +1,7 @@
-A very simple Command Line tool for sending WakeOnLan packets.
+**A very simple Command Line tool for sending WakeOnLan packets.**
 Original Code for sending the packet: https://gist.github.com/jumar/9200840
 
-Usage: 
+**Usage**: 
 
 Jar (requires Java Runtime): java -jar WakeOnLan.jar mac-address ip (optional, if no ip is passed in, 255.255.255.255 is used.)
 
