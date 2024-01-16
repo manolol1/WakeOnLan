@@ -21,3 +21,9 @@ Specifying an IP-Address is not required. By default, 255.255.255.255 is used.
 Example without IP: `./WakeOnLan 00:1b:63:84:45:e6`
 
 Example with IP: `./WakeOnLan 00:1b:63:84:45:e6 192.168.8.185`
+
+<br/>
+
+Note: On Linux, you might need to add executing permissions to the file. Usually, you can do that with `sudo chmod 777 WakeOnLan`
+
+File names might be slightly different.
