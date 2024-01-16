@@ -1,15 +1,23 @@
-**A very simple Command Line tool for sending WakeOnLan packets.**
-Original Code for sending the packet: https://gist.github.com/jumar/9200840
+# Command Line tool for sending WakeOnLan packets.
 
-**Usage**: 
+### Original Code for sending the packet: https://gist.github.com/jumar/9200840
 
-Jar (requires Java Runtime): java -jar WakeOnLan.jar mac-address ip (optional, if no ip is passed in, 255.255.255.255 is used.)
+<br/>
 
-Exe (Windows): .\WakeOnLan.exe mac-address ip (optional, if no ip is passed in, 255.255.255.255 is used.)
+## Usage: 
 
-Linux Executable: ./WakeOnLan  mac-address ip (optional, if no ip is passed in, 255.255.255.255 is used.)
+**Jar (requires JRE):** `java -jar WakeOnLan.jar mac-address ip`
 
-Example without IP: ./WakeOnLan 00:1b:63:84:45:e6
-Example with IP: ./WakeOnLan 00:1b:63:84:45:e6 192.168.8.185
+**Linux Executable:** `./WakeOnLan  mac-address ip`
 
-In most cases, the IP is not required.
+**Exe (Windows):** `.\WakeOnLan.exe mac-address ip`
+
+<br/>
+
+Specifying an IP-Address is not required. By default, 255.255.255.255 is used.
+
+<br/>
+
+Example without IP: `./WakeOnLan 00:1b:63:84:45:e6`
+
+Example with IP: `./WakeOnLan 00:1b:63:84:45:e6 192.168.8.185`
