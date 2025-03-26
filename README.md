@@ -1,3 +1,5 @@
+# Migrated to https://forgejo.manolol.xyz/mario/WakeOnLan
+
 # Command Line tool for sending WakeOnLan packets.
 
 ### Original Code for sending the packet: https://gist.github.com/jumar/9200840
